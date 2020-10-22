@@ -7,23 +7,26 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Asim Zahid",
+  title: "Hi all, I'm Asim",
+  subTitle: emoji("A passionate Software Engineer 🚀 having an experience of building End to End Machine Learning Systems with Python / Tensorflow / Pytorch / Scikit-Learn and some other cool libraries and frameworks."),
+  resumeLink: "https://drive.google.com/drive/folders/16lxxG50rFtyrwDtjwlM7A-RiYiZMvY-l?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/MrAsimZahid",
+  linkedin: "https://www.linkedin.com/in/MrAsimZahid/",
+  gmail: "asimzahid02@gmail.com",
+  // gitlab: "https://gitlab.com/MrAsimZahid",
+  facebook: "https://www.facebook.com/MrAsimZahid",
+  medium: "https://medium.com/@MrAsimZahid",
+  stackoverflow: "https://stackoverflow.com/users/10422806/MrAsimZahid",
+  instagram: "http://instagram.com/mrasimzahid",
+  twitter: "https://twitter.com/mrasimzahid"
+
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -31,11 +34,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK DEEP LEARNING ENGINEER WHO WANTS TO WANT TO BUILT IMPACTFUL PRODUCTS",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop highly intelligent autonomus systems to help planet Earth"),
+    emoji("⚡ Design and Build cloud based infrastructure for data driven apllications"),
+    emoji("⚡ Integration of third party services such as GCP/ AWS / Azure")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -43,36 +46,40 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "RPA",
+      fontAwesomeClassname: "fas fa-robot"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "kaggle",
+      fontAwesomeClassname: "fab fa-kaggle"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "vision",
+      fontAwesomeClassname: "far fa-eye"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "NLP",
+      fontAwesomeClassname: "fas fa-language"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "c++",
+      fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Neural Networks",
+      fontAwesomeClassname: "fas fa-brain"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-accusoft"
+    },
+    {
+      skillName: "pip",
+      fontAwesomeClassname: "fab fa-pied-piper-pp"
     },
     {
       skillName: "sql-database",
@@ -83,7 +90,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "pytorch",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
@@ -93,6 +100,26 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "ubuntu",
+      fontAwesomeClassname: "fab fa-ubuntu"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
     }
   ]
 };
@@ -132,16 +159,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Computer Vision",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Data Skills",
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ]
 };
@@ -153,28 +180,28 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Computer Vision Engineer",
+      company: "OpenCV",
+      companylogo: require("./assets/images/bleedaiLogo.png"),
+      date: "Sep 2020 – Present",
+      desc: "Building world class Tensorflow course for thousands of computer vision researchers, developers and aspirants ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Custom Notebooks development",
+        "Technical content writer"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Data Science Intern",
+      company: "Ingenio EC",
+      companylogo: require("./assets/images/transfopowerLogo.png"),
+      date: "June 2020 – Sep 2020",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Deep Learning Engineer",
+      company: "MileStone Zero",
+      companylogo: require("./assets/images/milestonezeroLogo.jpg"),
+      date: "June 2019 – Sep 2020",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
   ]
@@ -185,7 +212,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "MrAsimZahid", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -197,12 +224,16 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/edificeLogo.webp"),
+      link: "https://edifice.ai/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/ingenioLogo.png"),
+      link: "https://www.ingenio.ec/"
+    },
+    {
+      image: require("./assets/images/milestonezeroLogo.png"),
+      link: "https://milestonezero.net/"
     }
   ]
 };
@@ -216,9 +247,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "DSC Lead",
+      subtitle: "One of 42 First Pakistani to be selected as Developer Student Club Lead by Google Developers from 4000 students across the country.",
+      image: require("./assets/images/DSCLogo.png"),
       footerLink: [
         { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
         { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
@@ -253,14 +284,14 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://medium.com/@MrAsimZahid/how-to-scrape-tweets-and-create-dataset-using-twint-without-twitter-api-e5890c25d1c9",
+      title: "How to Scrape Tweets and create Dataset using Twint without Twitter API",
+      description: "Do you want to utilize amazing power of tweets data? Leraan here How to do it."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://medium.com/@MrAsimZahid/ai-data-architecture-simple-best-practices-for-creating-datasets-1d830f6c2757",
+      title: "AI Data Architecture: Simple Best Practices for Creating Datasets",
+      description: "Data is the new oil. Learn How to create scalable, sustainable, and shareable human centered AI data architectures with no overhead."
     }
   ]
 };
@@ -273,8 +304,8 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      title: "Hacktoberfest: Open-Source Contributions",
+      subtitle: "Hands-on Workshop on Git & Github",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
@@ -294,15 +325,15 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3320443303",
+  email_address: "asimzahid02@gmail.com@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : "mrasimzahid"//Replace "twitter" with your twitter username without @
 
 };
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
