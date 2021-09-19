@@ -2,52 +2,54 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
-import emoji from "react-easy-emoji";
-
 // Summary And Greeting Section
 
+import emoji from "react-easy-emoji";
+
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Asim Zahid",
+  title: "Hi all, I'm Asim",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I can brew up Algorithms✨ with a pinch of math🧮, an ounce of Python, and piles of Data📚 to power your Business📊 applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/mrasimzahid",
+  linkedin: "https://www.linkedin.com/in/mrasimzahid/",
+  gmail: "asimzahid02@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/mrasimzahid",
+  medium: "https://mrasimzahid.medium.com/",
+  stackoverflow: "https://stackoverflow.com/users/11679697/asim-zahid",
+  // Instagram and Twitter are also supported in the links!
+  twitter: "https://www.twitter.com/mrasimzahid",
+  instagram: "https://www.instagram.com/mrasimzahid/",
+  kaggle: "https://www.kaggle.com/asimzahid",
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: emoji("What I do 💻"),
+  subTitle: "SOFTWARE ENGINEER WITH SPECIALIZATION IN DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Perform quantative and qualitative analysis to reveal hidden patterns in the data."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Performs research and teach machines to view and understand the surroundings."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Do RPA to automate the boring stuff."
     )
   ],
 
@@ -55,6 +57,18 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "kaggle",
+      fontAwesomeClassname: "fab fa-kaggle"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -64,28 +78,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Django",
+      fontAwesomeClassname: "fab fa-dochub"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "AI",
+      fontAwesomeClassname: "fas fa-robot"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "research",
+      fontAwesomeClassname: "fab fa-researchgate"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "neural network",
+      fontAwesomeClassname: "fas fa-brain"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "sql-database",
@@ -96,17 +110,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "google cloud",
+      fontAwesomeClassname: "fas fa-cloud"
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -117,23 +124,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Superior University",
+      logo: require("./assets/images/superiorLogo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2017 - May 2021",
+      desc: emoji("Participated in the research of \"3D Soccer ⚽ Ball Trajectory Estimation Using Single Broadcast Camera 📷\" and 2 publication papers are in progress."),
+      descBullets: [
+        "Google Developer Student Club Lead(GDSC)[Selected among 52 leads out of 5000+ applicants in Pakistan] 2019-2020",
+        "AWS Educate cloud Ambassador[selected among 17 in Pakistan and 316 over the globe out of thousands of applicants] 2020-2021",
+        "Industry-academia collaborated research based final year project",
+        "SOFTEC 2021: AI Competition, Publisher prediction(F1 score: 0.88)",
+        "Student Voice Leader(SVL)"
+      ]
     }
   ]
 };
@@ -141,22 +143,23 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Data Science", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Computer Vision",
       progressPercentage: "70%"
     },
     {
       Stack: "Programming",
       progressPercentage: "60%"
-    }
+    },
+    
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false //Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -165,29 +168,49 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Research Scientist",
+      company: "TechnoGenics",
+      companylogo: require("./assets/images/technogenics.jpeg"),
+      date: "July 2021 – Present",
+      desc: "I will be working on AI, cyber security, and data mining to analyze & prevent threads and malwares. Furthermore, will assist SOCs(Security Operations Center) as first respondent through our product."
+    },
+    {
+      role: "Associate AI Researcher",
+      company: "Omno AI",
+      companylogo: require("./assets/images/omnoai.png"),
+      date: "Sep 2020 – Present",
+      desc: emoji("3D Soccer ⚽ Ball Trajectory Estimation Using Single Broadcast Camera 📷"),
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "We created a complete custom trajectories dataset for the problem.",
+        "Build and contributed open source tools.",
+        "Two publications are in progress.",
+        "Partial Demo: https://youtu.be/HSYKp8hfla4"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Science Intern",
+      company: "Ingenio EC",
+      companylogo: require("./assets/images/ingenioec.jpeg"),
+      date: "Jun 2020 – Sep 2020",
+      desc: "I worked on production ready machine learning, data science and software engineering tasks.",
+      descBullets: [
+        "Deployed automated social media data pipelines for storing and analyzing and reporting.",
+        "Scraped whole country(Ecuador) twitter's data.",
+        "Performed \'topic modeling\' on scraped data using AWS comprehend.",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Deep Learning Intern",
+      company: "Milestone Zero",
+      companylogo: require("./assets/images/milestonezero.jpg"),
+      date: "Jun 2019 – Sep 2019",
+      desc: "Worked on building Spacial Analysis Technology to help optimize real estate",
+      descBullets: [
+        "Created custom indoor real estate vision dataset.",
+        "Custom dataset format conversions.",
+        "Researched realtime object detection algorithms. \"mAP 0.72\"",
+        // "Partial Demo: https://youtu.be/HSYKp8hfla4"
+      ]
     }
   ]
 };
@@ -196,36 +219,66 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: emoji("Big Projects 🚀"),
+  subtitle: "SOME STARTUPS AND COMPANIES PROJECTS AND DATA I WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/shopee.png"),
+      projectName: "Shopee - Price Match Guarantee",
+      projectDesc: "Determine if two products are the same by their images",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Details",
+          url: "https://www.kaggle.com/c/shopee-product-matching/"
+        },
+        {
+          name: "Notebook",
+          url: "https://www.kaggle.com/imroze/tfidf-arcface-advanced-text-processing-131st"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/gufhtugu.png"),
+      projectName: "Gufhtugu Publications",
+      projectDesc: "20,000 Records of Books Sale in Pakistan",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Notebook",
+          url: "https://www.kaggle.com/asimzahid/analysis-on-e-commerce-gufhtugu"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/swvl.jpeg"),
+      projectName: "Forecast Rides",
+      projectDesc: "Anomaly detection, user conversion forecasting and impact based on sudden behavior change of society due to COVID-19",
+      footerLink: [
+        {
+          name: "Dataset",
+          url: "https://www.kaggle.com/asimzahid/new-york-bus-rides-service"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/zameen-logo.jpg"),
+      projectName: "Real Estate Category Prediction",
+      projectDesc: "Predict the price-categories of real estate in Pakistan. There are 4 distinct price-categories: Cheap, Affordable, Semi-Premium, Premium.",
+      footerLink: [
+        {
+          name: "Dataset",
+          url: "https://www.kaggle.com/c/kaggledatafest"
+        },
+        {
+          name: "Notebook",
+          url: "https://www.kaggle.com/asimzahid/zameen-real-estate-category-prediction"
         }
       ]
     }
@@ -243,47 +296,60 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Kaggle Expert",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Kaggle is the world’s largest data science community with powerful tools and resources to help you achieve your data science goals. There are four categories in it. I ranked expert in notebook/code category.",
+      image: require("./assets/images/expert@192.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Profile",
+          url: "https://www.kaggle.com/asimzahid/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Google Developer Student Club Lead",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Selected among 52 leads out of 5000+ applicants in Pakistan. Founded Superior university's first technically focused club with the focus to bridge the gap between theory and practice. 400+ registered members. Organized 6 Events(3 technical, 2 Non-technical), delivered 1 technical workshop on Google Cloud, facilitated 1 technical on Git & Github. Reached to 2500+ students. 2019-2020",
+      image: require("./assets/images/gdsc.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "DSC Journey",
+          url: "https://msaad.dev/my-dsc-journey/"
+        },
+        {
+          name: "DSC Leads Summit",
+          url: "https://youtu.be/gO_Lurqe08M"
+        },
+        {
+          name: "Profile",
+          url: "https://gdsc.community.dev/superior-gold-campus/"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "AWS Educate Cloud Ambassador",
+      subtitle: "Selected among 17 from Pakistan and 316 from 50+ countries across the globe. Received AWS trainings, learned proceedures, participated in AWS hackathons and applied leadership. Helped launcing first Official AWS community accross Pakistan.",
+      image: require("./assets/images/aws.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "AWS blog", 
+          url: "https://aws.amazon.com/blogs/publicsector/aws-educate-announces-inaugural-student-ambassador-cohort/"
+        },
+        {
+          name: "AWS Community Pakistan",
+          url: "https://awscommunity.pk"
+        }
+      ]
+    },
+    {
+      title: "DataCamp Python Assessment",
+      subtitle: "Ranked advanced with Score of 178, falls in the extreme right of bell curve",
+      image: require("./assets/images/datacamp.png"),
+      footerLink: [
+        {
+          name: "Assessment results", 
+          url: "https://assessment-api.datacamp.com/result/75ff4158-e2c9-42c5-a265-0b71e9633ca6"
         }
       ]
     }
@@ -294,22 +360,58 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: emoji("Blogs 📝"),
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Research and Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://mrasimzahid.medium.com/google-cloud-platform-fundamentals-core-infrastructure-97c4d958d8e2",
+      title: "Google Cloud Platform Fundamentals: Core Infrastructure",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "This course is the best for someone who want to get a holistic view of Google cloud platform. What GCP do?, what services it offer?, and how they interact and function?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://mrasimzahid.medium.com/article-publisher-prediction-softech-2021-ai-competition-6719d8be2542",
+      title: emoji("Article Publisher Prediction | SOFTEC 2021 AI Competition 🤖"),
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Few takeaways and thoughts from SOFTEC 2021 AI competition."
+    },
+    {
+      url: "https://medium.com/analytics-vidhya/how-to-scrape-tweets-and-create-dataset-using-twint-without-twitter-api-e5890c25d1c9",
+      title: emoji("How to Scrape Tweets and create Dataset using Twint without Twitter API 🐦"),
+      description:
+        "In this article, I’ll describe how I created a huge dataset of tweets scraped from an entire country."
+    },
+    {
+      url: "https://medium.com/analytics-vidhya/the-secret-recipe-of-earning-kaggle-medals-fb9d728c24bb",
+      title: emoji("The Secret Recipe of Earning Kaggle Medals🥇"),
+      description:
+        "Here are few key learnings from active participation on kaggle."
+    },
+    {
+      url: "https://medium.datadriveninvestor.com/kaggle-data-science-platform-alternatives-for-competitions-and-research-cbe051596e62",
+      title: "Kaggle Data Science Platform Alternatives for Competitions and Research",
+      description:
+        "Kaggle is the world’s largest data science community with powerful tools and resources to help you achieve your data science goals. I aggregated few alternatives of kaggle which I found really interesting."
+    },
+    {
+      url: "https://mrasimzahid.medium.com/hdfs-hadoop-distributed-file-system-hadoop-d566a7f48fc9",
+      title: "HDFS - Hadoop Distributed File System",
+      description:
+        "A brief introduction to HDFS - Hadoop Distributed File System."
+    },
+    {
+      url: "https://medium.com/analytics-vidhya/how-to-import-data-from-google-drive-into-kaggle-notebook-3af68a1f0d4",
+      title: "How to Import Data from Google Drive into Kaggle Notebook",
+      description:
+        "In this tutorial, I’ll teach you how to transfer files from google drive o Kaggle kernel. It only requires three quick steps."
+    },
+    {
+      url: "https://mrasimzahid.medium.com/",
+      title: "Read More",
+      description:
+        "View full catelog"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -318,17 +420,17 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: emoji("TALKS🎙️"),
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: emoji("Introduction to Google Cloud ☁️"),
+      subtitle: "Codelabs at Superior University 2019",
+      // slides_url: "https://bit.ly/saadpasta-slides",
+      // event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -344,21 +446,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3320443303",
+  email_address: "asimzahid02@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "MrASimZahid", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
