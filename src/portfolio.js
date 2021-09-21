@@ -66,6 +66,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-kaggle"
     },
     {
+      skillName: "neo4j",
+      fontAwesomeClassname: "far fa-chart-network"
+    },
+    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
