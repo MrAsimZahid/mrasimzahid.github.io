@@ -67,7 +67,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "neo4j",
-      fontAwesomeClassname: "far fa-chart-network"
+      fontAwesomeClassname: "fab fa-hubspot"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
       skillName: "docker",
