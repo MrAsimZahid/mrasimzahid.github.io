@@ -351,13 +351,17 @@ const achievementSection = {
       ]
     },
     {
-      title: "DataCamp Python Assessment",
-      subtitle: "Ranked advanced with Score of 178, falls in the extreme right of bell curve",
-      image: require("./assets/images/datacamp.png"),
+      title: "Neo4j Certified Professional",
+      subtitle: "Certification exam assess on 6 areas including 'Overview of Neo4j 4.x',  'Querying with Cypher in Neo4j 4.x', 'Creating Nodes and Relationships in Neo4j 4.x', 'Using Indexes and Query Best Practices in Neo4j 4.x', 'Importing Data with Neo4j 4.x', 'Graph Data Modeling for Neo4j'",
+      image: require("./assets/images/neo4j.png"),
       footerLink: [
         {
-          name: "Assessment results", 
-          url: "https://assessment-api.datacamp.com/result/75ff4158-e2c9-42c5-a265-0b71e9633ca6"
+          name: "Certificate", 
+          url: "https://graphacademy.neo4j.com/certificates/a88139441201fff1493f48daca4572526d269310d1d900192cc2e6cf04658c1a.pdf"
+        },
+        {
+          name: "Exam Website", 
+          url: "https://neo4j.com/graphacademy/neo4j-certification/"
         }
       ]
     }
