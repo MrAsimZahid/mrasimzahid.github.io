@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08536234c5d6885cc64d025e24835e39",
+    "revision": "2da4473580b4b5315203038591cf61e5",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "7699b2bd5b5e8d15ea63",
+    "revision": "6fc95d88c357b31a7d52",
     "url": "/static/css/main.f915534d.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.63d6da99.chunk.js"
   },
   {
-    "revision": "7699b2bd5b5e8d15ea63",
-    "url": "/static/js/main.c459f99e.chunk.js"
+    "revision": "6fc95d88c357b31a7d52",
+    "url": "/static/js/main.e431c21b.chunk.js"
   },
   {
     "revision": "30c34bfa9a5bf84142f4",
@@ -56,10 +56,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/contactMailDark.51cf7192.svg"
   },
   {
-    "revision": "40f3a30f64c7002a1e9506560663503f",
-    "url": "/static/media/datacamp.40f3a30f.png"
-  },
-  {
     "revision": "59389695208d7454c6607bed51ed4316",
     "url": "/static/media/developerActivity.59389695.svg"
   },
@@ -74,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8330709c284142d9eb224462e595adcc",
     "url": "/static/media/milestonezero.8330709c.jpg"
+  },
+  {
+    "revision": "d02991bef6e320bb8387dbd9f954c03e",
+    "url": "/static/media/neo4j.d02991be.png"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",

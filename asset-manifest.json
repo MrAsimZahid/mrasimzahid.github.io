@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f915534d.chunk.css",
-    "main.js": "/static/js/main.c459f99e.chunk.js",
-    "main.js.map": "/static/js/main.c459f99e.chunk.js.map",
+    "main.js": "/static/js/main.e431c21b.chunk.js",
+    "main.js.map": "/static/js/main.e431c21b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9e4c3075.js",
     "runtime-main.js.map": "/static/js/runtime-main.9e4c3075.js.map",
     "static/js/2.8915920a.chunk.js": "/static/js/2.8915920a.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.63d6da99.chunk.js": "/static/js/4.63d6da99.chunk.js",
     "static/js/4.63d6da99.chunk.js.map": "/static/js/4.63d6da99.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2df488ef6da0e12d13da872789272f0e.js": "/precache-manifest.2df488ef6da0e12d13da872789272f0e.js",
+    "precache-manifest.9f3ffc895efa0fce16a012c569670f84.js": "/precache-manifest.9f3ffc895efa0fce16a012c569670f84.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/static/css/3.df879eac.chunk.css.map",
     "static/css/4.e91a4b36.chunk.css.map": "/static/css/4.e91a4b36.chunk.css.map",
@@ -23,11 +23,11 @@
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/aws.png": "/static/media/aws.93b92b23.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
-    "static/media/datacamp.png": "/static/media/datacamp.40f3a30f.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
     "static/media/gufhtugu.png": "/static/media/gufhtugu.e06e1168.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
     "static/media/milestonezero.jpg": "/static/media/milestonezero.8330709c.jpg",
+    "static/media/neo4j.png": "/static/media/neo4j.d02991be.png",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
     "static/media/TalkCard.scss": "/static/media/talksCardBack.13780cdd.svg",
     "static/media/zameen-logo.jpg": "/static/media/zameen-logo.6236f37f.jpg"
@@ -36,6 +36,6 @@
     "static/js/runtime-main.9e4c3075.js",
     "static/js/2.8915920a.chunk.js",
     "static/css/main.f915534d.chunk.css",
-    "static/js/main.c459f99e.chunk.js"
+    "static/js/main.e431c21b.chunk.js"
   ]
 }
