@@ -114,6 +114,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "nosql-database",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
@@ -289,6 +293,21 @@ const bigProjects = {
           url: "https://www.kaggle.com/asimzahid/zameen-real-estate-category-prediction"
         }
       ]
+    },
+    {
+      image: require("./assets/images/pakwheels.png"),
+      projectName: "PakWheels Automobiles Listings",
+      projectDesc: "Pakistan's largest public, used automobiles listings dataset with 55k+ rows and 30+ features",
+      footerLink: [
+        {
+          name: "Dataset",
+          url: "https://www.kaggle.com/asimzahid/pakistans-largest-pakwheels-automobiles-listings"
+        },
+        {
+          name: "Crawler",
+          url: "https://github.com/MrAsimZahid/PakWheels-Listing-Scraper"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -304,7 +323,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Kaggle Expert",
+      title: "Dual Kaggle Expert",
       subtitle:
         "Kaggle is the world’s largest data science community with powerful tools and resources to help you achieve your data science goals. There are four categories in it. I ranked expert in notebook/code category.",
       image: require("./assets/images/expert@192.png"),
@@ -441,9 +460,10 @@ const talkSection = {
     {
       title: emoji("Introduction to Google Cloud ☁️"),
       subtitle: "Codelabs at Superior University 2019",
-      // slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://www.youtube.com/watch?v=M0UH1JgpsIw",
       // event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
