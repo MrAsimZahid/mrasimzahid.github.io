@@ -184,7 +184,12 @@ const workExperiences = {
       company: "TechnoGenics",
       companylogo: require("./assets/images/technogenics.jpeg"),
       date: "July 2021 – Present",
-      desc: "I will be working on AI, cyber security, and data mining to analyze & prevent threads and malwares. Furthermore, will assist SOCs(Security Operations Center) as first respondent through our product."
+      desc: "Working on building Security Intelligence",
+      descBullets: [
+        "Wrote and Deployed django microservice for data ingestions and report building.",
+        "Developed cyber threat intelligence platform(CTI/TIP) for the company with multiple data ingestions and pipelines.",
+        "Designed and developed algorithms for rules extraction and validation.",
+      ]
     },
     {
       role: "Associate AI Researcher",
@@ -325,7 +330,7 @@ const achievementSection = {
     {
       title: "Dual Kaggle Expert",
       subtitle:
-        "Kaggle is the world’s largest data science community with powerful tools and resources to help you achieve your data science goals. There are four categories in it. I ranked expert in notebook/code category.",
+        "Kaggle is the world’s largest data science community with powerful tools and resources to help you achieve your data science goals. There are four categories in it. I ranked expert in notebook/code and dataset category.",
       image: require("./assets/images/expert@192.png"),
       footerLink: [
         {
