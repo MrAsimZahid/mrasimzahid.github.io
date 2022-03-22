@@ -273,17 +273,17 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/swvl.jpeg"),
-      projectName: "Forecast Rides",
-      projectDesc: "Anomaly detection, user conversion forecasting and impact based on sudden behavior change of society due to COVID-19",
-      footerLink: [
-        {
-          name: "Dataset",
-          url: "https://www.kaggle.com/asimzahid/new-york-bus-rides-service"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/swvl.jpeg"),
+    //   projectName: "Forecast Rides",
+    //   projectDesc: "Anomaly detection, user conversion forecasting and impact based on sudden behavior change of society due to COVID-19",
+    //   footerLink: [
+    //     {
+    //       name: "Dataset",
+    //       url: "https://www.kaggle.com/asimzahid/new-york-bus-rides-service"
+    //     }
+    //   ]
+    // },
     {
       image: require("./assets/images/zameen-logo.jpg"),
       projectName: "Real Estate Category Prediction",
