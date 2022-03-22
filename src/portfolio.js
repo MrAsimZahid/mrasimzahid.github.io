@@ -438,10 +438,10 @@ const blogSection = {
         "A brief introduction to HDFS - Hadoop Distributed File System."
     },
     {
-      url: "https://medium.com/analytics-vidhya/how-to-import-data-from-google-drive-into-kaggle-notebook-3af68a1f0d4",
-      title: "How to Import Data from Google Drive into Kaggle Notebook",
+      url: "https://mrasimzahid.medium.com/20-best-data-and-web-scraping-tools-bb8c96cf9ed8",
+      title: "20 Best Data and Web Scraping Tools",
       description:
-        "In this tutorial, I’ll teach you how to transfer files from google drive o Kaggle kernel. It only requires three quick steps."
+        "Data is the new oil. Nowadays, Everyone needs data whether you are running an e-commerce business, performing quantitative research, working in cyber threat intelligence, blockchain, or else to analyze it and make better decisions."
     },
     {
       url: "https://mrasimzahid.medium.com/",
