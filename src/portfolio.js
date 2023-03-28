@@ -181,13 +181,15 @@ const workExperiences = {
   experience: [
     {
       role: "Research Scientist",
-      company: "TechnoGenics",
+      company: "TechnoGenics (StrikeReady)",
       companylogo: require("./assets/images/technogenics.jpeg"),
       date: "July 2021 – Present",
       desc: "Working on building Security Intelligence",
       descBullets: [
-        "Wrote and Deployed django microservice for data ingestions and report building.",
-        "Developed cyber threat intelligence platform(CTI/TIP) for the company with multiple data ingestions and pipelines.",
+        "Designed and Developed Threat Landscape data platform.",
+        "Developed NLP based cyber security name entity recognition system (Cyber NER) to extract security entities from unstructured text.",
+        "Developed Cyber Threat Intelligence (CTI/TIP) platform (initial phase)",
+        "Deployed django microservice for data ingestions and report building.",
         "Designed and developed algorithms for rules extraction and validation.",
       ]
     },
@@ -195,7 +197,7 @@ const workExperiences = {
       role: "Associate AI Researcher",
       company: "Omno AI",
       companylogo: require("./assets/images/omnoai.png"),
-      date: "Sep 2020 – Present",
+      date: "Sep 2020 – July 2021",
       desc: emoji("3D Soccer ⚽ Ball Trajectory Estimation Using Single Broadcast Camera 📷"),
       descBullets: [
         "We created a complete custom trajectories dataset for the problem.",
@@ -216,19 +218,19 @@ const workExperiences = {
         "Performed \'topic modeling\' on scraped data using AWS comprehend.",
       ]
     },
-    {
-      role: "Deep Learning Intern",
-      company: "Milestone Zero",
-      companylogo: require("./assets/images/milestonezero.jpg"),
-      date: "Jun 2019 – Sep 2019",
-      desc: "Worked on building Spacial Analysis Technology to help optimize real estate",
-      descBullets: [
-        "Created custom indoor real estate vision dataset.",
-        "Custom dataset format conversions.",
-        "Researched realtime object detection algorithms. \"mAP 0.72\"",
-        // "Partial Demo: https://youtu.be/HSYKp8hfla4"
-      ]
-    }
+    // {
+    //   role: "Deep Learning Intern",
+    //   company: "Milestone Zero",
+    //   companylogo: require("./assets/images/milestonezero.jpg"),
+    //   date: "Jun 2019 – Sep 2019",
+    //   desc: "Worked on building Spacial Analysis Technology to help optimize real estate",
+    //   descBullets: [
+    //     "Created custom indoor real estate vision dataset.",
+    //     "Custom dataset format conversions.",
+    //     "Researched realtime object detection algorithms. \"mAP 0.72\"",
+    //     // "Partial Demo: https://youtu.be/HSYKp8hfla4"
+    //   ]
+    // }
   ]
 };
 
