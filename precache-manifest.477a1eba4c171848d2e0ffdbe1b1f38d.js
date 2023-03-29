@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "463920045c0c84bf2f809c04ee58f782",
+    "revision": "214be9eb01deb08e76087cf9c66d2f29",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "e4d56118b50f1333bc1b",
+    "revision": "aa8df86cc7cdbf919b8c",
     "url": "/static/css/main.80ced110.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.56c3bb04.chunk.js"
   },
   {
-    "revision": "e4d56118b50f1333bc1b",
-    "url": "/static/js/main.46785380.chunk.js"
+    "revision": "aa8df86cc7cdbf919b8c",
+    "url": "/static/js/main.103a3bf3.chunk.js"
   },
   {
     "revision": "9bf898232f6b4fcd1b92",
@@ -80,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/talksCardBack.13780cdd.svg"
   },
   {
-    "revision": "6236f37f5c89482cbf5e0be536439698",
-    "url": "/static/media/zameen-logo.6236f37f.jpg"
+    "revision": "afd284726ddf5fbf79da79927cfd026a",
+    "url": "/static/media/zameen-logo.afd28472.jpg"
   }
 ]);

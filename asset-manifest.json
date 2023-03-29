@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.80ced110.chunk.css",
-    "main.js": "/static/js/main.46785380.chunk.js",
-    "main.js.map": "/static/js/main.46785380.chunk.js.map",
+    "main.js": "/static/js/main.103a3bf3.chunk.js",
+    "main.js.map": "/static/js/main.103a3bf3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a373b7d7.js",
     "runtime-main.js.map": "/static/js/runtime-main.a373b7d7.js.map",
     "static/js/2.5b9b22db.chunk.js": "/static/js/2.5b9b22db.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.56c3bb04.chunk.js": "/static/js/4.56c3bb04.chunk.js",
     "static/js/4.56c3bb04.chunk.js.map": "/static/js/4.56c3bb04.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.55e308a13e28fc895bd8d0cef2363d7a.js": "/precache-manifest.55e308a13e28fc895bd8d0cef2363d7a.js",
+    "precache-manifest.477a1eba4c171848d2e0ffdbe1b1f38d.js": "/precache-manifest.477a1eba4c171848d2e0ffdbe1b1f38d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/static/css/3.df879eac.chunk.css.map",
     "static/css/4.e91a4b36.chunk.css.map": "/static/css/4.e91a4b36.chunk.css.map",
@@ -29,12 +29,12 @@
     "static/media/neo4j.png": "/static/media/neo4j.d02991be.png",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
     "static/media/TalkCard.scss": "/static/media/talksCardBack.13780cdd.svg",
-    "static/media/zameen-logo.jpg": "/static/media/zameen-logo.6236f37f.jpg"
+    "static/media/zameen-logo.jpg": "/static/media/zameen-logo.afd28472.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a373b7d7.js",
     "static/js/2.5b9b22db.chunk.js",
     "static/css/main.80ced110.chunk.css",
-    "static/js/main.46785380.chunk.js"
+    "static/js/main.103a3bf3.chunk.js"
   ]
 }
