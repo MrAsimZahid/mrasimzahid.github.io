@@ -16,8 +16,7 @@ const greeting = {
   subTitle: emoji(
     "I can brew up Algorithms✨ with a pinch of math🧮, an ounce of Python, and piles of Data📚 to power your Business📊 applications."
   ),
-  resumeLink:
-    "",
+  resumeLink: "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -42,15 +41,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: emoji("What I do 💻"),
-  subTitle: "SOFTWARE ENGINEER WITH SPECIALIZATION IN DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
+  subTitle:
+    "SOFTWARE ENGINEER WITH SPECIALIZATION IN DATA SCIENCE AND ARTIFICIAL INTELLIGENCE",
   skills: [
     emoji(
       "⚡ Perform quantative and qualitative analysis to reveal hidden patterns in the data."
     ),
-    emoji("⚡ Performs research and teach machines to view and understand the surroundings."),
     emoji(
-      "⚡ Do RPA to automate the boring stuff."
-    )
+      "⚡ Performs research and teach machines to view and understand the surroundings."
+    ),
+    emoji("⚡ Do RPA to automate the boring stuff.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -125,7 +125,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "google cloud",
       fontAwesomeClassname: "fas fa-cloud"
     }
-    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -140,7 +139,9 @@ const educationInfo = {
       logo: require("./assets/images/superiorLogo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2017 - May 2021",
-      desc: emoji("Participated in the research of \"3D Soccer ⚽ Ball Trajectory Estimation Using Single Broadcast Camera 📷\" and 2 publication papers are in progress."),
+      desc: emoji(
+        'Participated in the research of "3D Soccer ⚽ Ball Trajectory Estimation Using Single Broadcast Camera 📷" and 2 publication papers are in progress.'
+      ),
       descBullets: [
         "Google Developer Student Club Lead(GDSC)[Selected among 52 leads out of 5000+ applicants in Pakistan] 2019-2020",
         "AWS Educate cloud Ambassador[selected among 17 in Pakistan and 316 over the globe out of thousands of applicants] 2020-2021",
@@ -168,8 +169,7 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "60%"
-    },
-    
+    }
   ],
   displayCodersrank: false //Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -190,7 +190,7 @@ const workExperiences = {
         "Developed NLP based cyber security name entity recognition system (Cyber NER) to extract security entities from unstructured text.",
         "Developed Cyber Threat Intelligence (CTI/TIP) platform (initial phase)",
         "Deployed django microservice for data ingestions and report building.",
-        "Designed and developed algorithms for rules extraction and validation.",
+        "Designed and developed algorithms for rules extraction and validation."
       ]
     },
     {
@@ -198,7 +198,9 @@ const workExperiences = {
       company: "Omno AI",
       companylogo: require("./assets/images/omnoai.png"),
       date: "Sep 2020 – July 2021",
-      desc: emoji("3D Soccer ⚽ Ball Trajectory Estimation Using Single Broadcast Camera 📷"),
+      desc: emoji(
+        "3D Soccer ⚽ Ball Trajectory Estimation Using Single Broadcast Camera 📷"
+      ),
       descBullets: [
         "We created a complete custom trajectories dataset for the problem.",
         "Build and contributed open source tools.",
@@ -215,9 +217,9 @@ const workExperiences = {
       descBullets: [
         "Deployed automated social media data pipelines for storing and analyzing and reporting.",
         "Scraped whole country(Ecuador) twitter's data.",
-        "Performed \'topic modeling\' on scraped data using AWS comprehend.",
+        "Performed 'topic modeling' on scraped data using AWS comprehend."
       ]
-    },
+    }
     // {
     //   role: "Deep Learning Intern",
     //   company: "Milestone Zero",
@@ -289,7 +291,8 @@ const bigProjects = {
     {
       image: require("./assets/images/zameen-logo.jpg"),
       projectName: "Real Estate Category Prediction",
-      projectDesc: "Predict the price-categories of real estate in Pakistan. There are 4 distinct price-categories: Cheap, Affordable, Semi-Premium, Premium.",
+      projectDesc:
+        "Predict the price-categories of real estate in Pakistan. There are 4 distinct price-categories: Cheap, Affordable, Semi-Premium, Premium.",
       footerLink: [
         {
           name: "Dataset",
@@ -304,7 +307,8 @@ const bigProjects = {
     {
       image: require("./assets/images/pakwheels.png"),
       projectName: "PakWheels Automobiles Listings",
-      projectDesc: "Pakistan's largest public, used automobiles listings dataset with 55k+ rows and 30+ features",
+      projectDesc:
+        "Pakistan's largest public, used automobiles listings dataset with 55k+ rows and 30+ features",
       footerLink: [
         {
           name: "Dataset",
@@ -363,11 +367,12 @@ const achievementSection = {
     },
     {
       title: "AWS Educate Cloud Ambassador",
-      subtitle: "Selected among 17 from Pakistan and 316 from 50+ countries across the globe. Received AWS trainings, learned proceedures, participated in AWS hackathons and applied leadership. Helped launcing first Official AWS community accross Pakistan.",
+      subtitle:
+        "Selected among 17 from Pakistan and 316 from 50+ countries across the globe. Received AWS trainings, learned proceedures, participated in AWS hackathons and applied leadership. Helped launcing first Official AWS community accross Pakistan.",
       image: require("./assets/images/aws.png"),
       footerLink: [
         {
-          name: "AWS blog", 
+          name: "AWS blog",
           url: "https://aws.amazon.com/blogs/publicsector/aws-educate-announces-inaugural-student-ambassador-cohort/"
         },
         {
@@ -378,15 +383,16 @@ const achievementSection = {
     },
     {
       title: "Neo4j Certified Professional",
-      subtitle: "Certification exam assess on 6 areas including 'Overview of Neo4j 4.x',  'Querying with Cypher in Neo4j 4.x', 'Creating Nodes and Relationships in Neo4j 4.x', 'Using Indexes and Query Best Practices in Neo4j 4.x', 'Importing Data with Neo4j 4.x', 'Graph Data Modeling for Neo4j'",
+      subtitle:
+        "Certification exam assess on 6 areas including 'Overview of Neo4j 4.x',  'Querying with Cypher in Neo4j 4.x', 'Creating Nodes and Relationships in Neo4j 4.x', 'Using Indexes and Query Best Practices in Neo4j 4.x', 'Importing Data with Neo4j 4.x', 'Graph Data Modeling for Neo4j'",
       image: require("./assets/images/neo4j.png"),
       footerLink: [
         {
-          name: "Certificate", 
+          name: "Certificate",
           url: "https://graphacademy.neo4j.com/certificates/a88139441201fff1493f48daca4572526d269310d1d900192cc2e6cf04658c1a.pdf"
         },
         {
-          name: "Exam Website", 
+          name: "Exam Website",
           url: "https://neo4j.com/graphacademy/neo4j-certification/"
         }
       ]
@@ -411,13 +417,16 @@ const blogSection = {
     },
     {
       url: "https://mrasimzahid.medium.com/article-publisher-prediction-softech-2021-ai-competition-6719d8be2542",
-      title: emoji("Article Publisher Prediction | SOFTEC 2021 AI Competition 🤖"),
-      description:
-        "Few takeaways and thoughts from SOFTEC 2021 AI competition."
+      title: emoji(
+        "Article Publisher Prediction | SOFTEC 2021 AI Competition 🤖"
+      ),
+      description: "Few takeaways and thoughts from SOFTEC 2021 AI competition."
     },
     {
       url: "https://medium.com/analytics-vidhya/how-to-scrape-tweets-and-create-dataset-using-twint-without-twitter-api-e5890c25d1c9",
-      title: emoji("How to Scrape Tweets and create Dataset using Twint without Twitter API 🐦"),
+      title: emoji(
+        "How to Scrape Tweets and create Dataset using Twint without Twitter API 🐦"
+      ),
       description:
         "In this article, I’ll describe how I created a huge dataset of tweets scraped from an entire country."
     },
@@ -429,7 +438,8 @@ const blogSection = {
     },
     {
       url: "https://medium.datadriveninvestor.com/kaggle-data-science-platform-alternatives-for-competitions-and-research-cbe051596e62",
-      title: "Kaggle Data Science Platform Alternatives for Competitions and Research",
+      title:
+        "Kaggle Data Science Platform Alternatives for Competitions and Research",
       description:
         "Kaggle is the world’s largest data science community with powerful tools and resources to help you achieve your data science goals. I aggregated few alternatives of kaggle which I found really interesting."
     },
@@ -448,8 +458,7 @@ const blogSection = {
     {
       url: "https://mrasimzahid.medium.com/",
       title: "Read More",
-      description:
-        "View full catelog"
+      description: "View full catelog"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -467,10 +476,9 @@ const talkSection = {
     {
       title: emoji("Introduction to Google Cloud ☁️"),
       subtitle: "Codelabs at Superior University 2019",
-      slides_url: "https://www.youtube.com/watch?v=M0UH1JgpsIw",
+      slides_url: "https://www.youtube.com/watch?v=M0UH1JgpsIw"
       // event_url: "https://www.facebook.com/events/2339906106275053/"
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
